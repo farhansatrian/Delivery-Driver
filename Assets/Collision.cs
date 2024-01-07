@@ -8,4 +8,8 @@ public class Collision : MonoBehaviour
     {
         Debug.Log("AWW");
     }
+
+    private void OnTriggerEnter2D(Collider2D other) {
+        Debug.Log("Touch");
+    }
 }
